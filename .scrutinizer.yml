@@ -11,5 +11,3 @@ build:
                 analysis:
                     file: 'cs-data'
                     format: 'php-cs-checkstyle'
-            -
-                command: 'phpunit'
