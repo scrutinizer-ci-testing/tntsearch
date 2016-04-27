@@ -1,0 +1,15 @@
+checks:
+    php: true
+    
+build:
+    environment:
+        node: '5.1.0'
+    tests:
+        override: 
+            - 
+                command: './vendor/bin/phpcs ./src --report=checkstyle --report-file=cs-data '
+                analysis:
+                    file: 'cs-data'
+                    format: 'php-cs-checkstyle'
+            -
+                command: 'phpunit'
