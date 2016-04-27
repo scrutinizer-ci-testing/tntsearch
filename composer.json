@@ -29,10 +29,5 @@
         "files": [
             "helper/helpers.php"
         ]
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "TeamTNT\\TNTSearch\\Test\\": "tests"
-        }
     }
 }
