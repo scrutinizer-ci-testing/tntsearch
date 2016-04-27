@@ -34,8 +34,5 @@
         "psr-4": {
             "TeamTNT\\TNTSearch\\Test\\": "tests"
         }
-    },
-    "scripts": {
-        "test": "phpunit"
     }
 }
