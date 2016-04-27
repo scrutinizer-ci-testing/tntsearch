@@ -2,8 +2,6 @@ checks:
     php: true
     
 build:
-    environment:
-        node: '5.1.0'
     tests:
         override: 
             - 
