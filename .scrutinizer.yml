@@ -5,7 +5,7 @@ build:
     tests:
         override: 
             - 
-                command: './vendor/bin/phpcs ./src --report=checkstyle --report-file=cs-data '
+                command: './vendor/bin/phpcs ./src/domain.php --report=checkstyle --report-file=cs-data '
                 analysis:
                     file: 'cs-data'
                     format: 'php-cs-checkstyle'
