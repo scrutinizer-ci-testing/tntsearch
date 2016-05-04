@@ -1,0 +1,11 @@
+checks:
+    php: true
+    
+build:
+    tests:
+        override: 
+            - 
+                command: './vendor/bin/phpcs ./ --report=checkstyle --report-file=cs-data '
+                analysis:
+                    file: 'cs-data'
+                    format: 'php-cs-checkstyle'
